@@ -1,0 +1,1320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CW BR Firma", sans-serif;
+}
+.container{
+    max-width: 100%;
+    height: 120vh;
+    background-color: #d4d4d6;
+}
+.logo img{
+    position: relative;
+    top: 23px;
+    left: 20px;
+    float: left;
+   width: 130px;
+    height: 25px;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 25px;
+    margin-left: 60px;
+    
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 35px;
+    cursor: pointer;
+}
+.menu ul li a{
+    color: rgb(108, 130, 163);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu ul li a:hover{
+    color: #1a2e2c;
+}
+.log{
+    top: 25px;
+    right: 16%;
+    position: absolute;
+    text-decoration: none;
+}
+.log small{
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(41, 109, 227)
+}
+.signup-btn{
+    top: 15px;
+    right: 20px;
+    position: absolute;
+    text-decoration: none;
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+.signup-btn span{
+    display:block ;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: rgb(0, 102, 245);
+    border:  1px solid rgb(41, 109, 227);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 1px rgba(0, 102, 245, .18);
+}
+.textline{
+    width: 60%;
+    height: 70%;
+    top: 40%;
+    left: 2%;
+    color: rgb(8, 37, 82);
+    position: absolute;
+}
+.apptext{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.apptext h1{
+    font-size: 80px;
+    font-weight: 600;
+    width: 640px;
+    position: relative;
+    letter-spacing: -3.4125px;
+    line-height: 97.75px;
+}
+.apptext p{
+    left: 2%;
+    width: 650px;
+    font-size: 30px;
+    color: rgb(8, 37, 82);
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: 57.5px;
+}
+.apptext p span{
+    color:#1a2e2c;
+    padding: 10px 15px;
+    background-color: #9e9797;
+    border-radius: 30px 30px 0 30px;
+}
+.buttons button{
+    top: 63%;
+    left: 1%;
+    position: absolute;
+}
+.buttons .btn{
+    height: 50px;
+    width: 38%;
+    border:  1px solid rgb(246, 239, 225);
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: left;
+    color:rgb(41, 109, 227);
+    padding: 5px 25px;
+    background-color: #fff
+}
+.buttons .btnn{
+    left: 40%;
+    width: 20%;
+    height: 50px;
+    border:  1px solid rgb(41, 109, 227);;
+    border-radius: 10px;
+    background-color: rgb(41, 109, 227);
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+.textt{
+    top: 82%;
+    left: 2%;
+    position: absolute;
+}
+.textt p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 16.1px;
+    color: rgb(108, 108, 108);
+    cursor: pointer;
+}
+.pic img{
+    top: 25%;
+    right: 10%;
+    position: absolute; 
+    width: 35%;
+    height: 80%;
+}
+.container2{
+    max-width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.apptext2{
+    position: relative;
+    top:20%;
+    margin: 20px;
+}
+.apptext2 h1{
+    color:rgb(8, 37, 82) ;
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: -3.4125px;
+    line-height:92.5px;
+}
+.apptext2 h1 span{
+    font-weight: 50;
+}
+.apptext2 p{
+    color:rgb(8, 37, 82) ;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: -1.4px;
+    line-height: 35px;
+}
+.apptext2 button{
+    width: 15%;
+    height: 50px;
+    border:  1px solid rgb(41, 109, 227);;
+    border-radius: 10px;
+    background-color: rgb(41, 109, 227);
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+.circlebar1 h1{
+    position: absolute;
+    right: 19.5px;
+    top: 140%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 11.5px;
+    color: rgb(8, 37, 82);
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 100% ;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+}
+.barchartbox1{
+    position: absolute;
+    right: 5%;
+    top: 140%;
+    width: 250px;
+    height: 115px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+    display: block;
+}
+.barchartbox1 h1{
+    margin: 10px;
+    color: rgb(8, 37, 82);
+    font-family:sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+.barchartbox1 p{
+    margin: 10px;
+    color: #8181c1;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.circlebar2 h1{
+    position: absolute;
+    right: 21.5%;
+    top: 165%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 11.5px;
+    color: rgb(8, 37, 82);
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 100% ;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+}
+.barchartbox2{
+    position: absolute;
+    right: 25%;
+    top: 165%;
+    width: 250px;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+    display: block;
+}
+.barchartbox2 h1{
+    margin: 10px;
+    color: rgb(8, 37, 82);
+    font-family:sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+.barchartbox2 p{
+    margin: 10px;
+    padding: 5px, 5px;
+    color: #8181c1;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.circlebar3 h1{
+    position: absolute;
+    right: 31.5%;
+    top: 190%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 11.5px;
+    color: rgb(8, 37, 82);
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+    border-radius: 100% ;
+}
+.barchartbox3{
+    position: absolute;
+    right: 35%;
+    top: 190%;
+    width: 250px;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+    display: block;
+}
+.barchartbox3 h1{
+    margin: 10px;
+    color: rgb(8, 37, 82);
+    font-family:sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+.barchartbox3 p{
+    margin: 10px;
+    color: #8181c1;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.container3{
+    max-width: 100%;
+    height: 100vh;
+    background-color:rgb(255, 255, 255);
+}
+#boxtext p{
+    position: absolute;
+    margin: 30px;
+    top: 240%;
+    color: rgb(8, 37, 82);
+    font-size: 64px;
+    font-weight: 700;
+    opacity: 1;  
+    display: block;
+    letter-spacing: -4.096px;
+    line-height: 80px;
+}
+.box1{
+    position: absolute;
+    top: 280%;
+    left: 2%;
+    width: 350px;
+    height: 230px;
+    border: 1px solid  rgb(0, 102, 245);
+    border-radius: 20px 20px 0px 20px; 
+}
+.box1 p{
+    color: rgb(0, 102, 245);
+    cursor: pointer;
+    display: block;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 1;
+    letter-spacing: -2.04px; 
+}
+.box2{
+    position: absolute;
+    top:280% ;
+    left: 36%;
+    width: 350px;
+    height: 230px;
+    border: 1px solid  rgb(0, 102, 245);
+    border-radius: 20px 20px 0px 20px;
+}
+.box2 p{
+    color: rgb(0, 102, 245);
+    cursor: pointer;
+    display: block;
+    margin: 40px;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 1;
+    letter-spacing: -2.04px; 
+}
+.box3{
+    position: absolute;
+    top: 280%;
+    right: 2%;
+    width: 350px;
+    height: 230px;
+    border: 1px solid  rgb(0, 102, 245);
+    border-radius: 20px 20px 0px 20px;
+}
+.box3 p{
+    color: rgb(0, 102, 245);
+    cursor: pointer;
+    display: block;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 1;
+    letter-spacing: -2.04px; 
+}
+.container4{
+    max-width: 100%;
+    height: 100vh;
+    background-color:rgb(255, 255, 255);
+}
+.phone img{
+    position: absolute;
+    left: 13%;
+    top: 335%;
+    width: 25%;
+    height: 85%;
+}
+.phoneinfo h1{
+    position: absolute;
+    right: 15%;
+    top: 335%;
+    letter-spacing:-2.4948px;
+    color: rgb(8, 37, 82);
+    font-size: 45px;
+    font-weight: 700;
+    opacity: 1; 
+}
+.phoneno1 h1{
+    position: absolute;
+    right: 38%;
+    top: 352%;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 14.95px;
+    color:rgb(41, 109, 227);
+    font-family: "Rency";
+}
+.line1{
+    position: absolute;
+    right: 39%;
+    top: 357%; 
+    border-left: 1px solid rgb(41, 109, 227);
+    height: 70px;
+}
+.phonesub1{
+    position: absolute;
+    right: 10%;
+    top: 350%;
+}
+.phonesub1 h1{
+    display: inline;
+    color: rgb(8, 37, 82);
+    font-size: 25px;
+    letter-spacing:-1px;
+    line-height: 34px;
+}
+.phonesub1 p{
+    display: block;
+    letter-spacing: -0.27px;
+    line-height: 26.9px;
+    color: #8181c1;
+    font-size: 15px;
+}
+.phoneno2 h1{
+    position: absolute;
+    right: 38%;
+    top: 372%;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 14.95px;
+    color:rgb(41, 109, 227);
+    font-family: "Rency";
+}
+.line2{
+    position: absolute;
+    right: 39%;
+    top: 377%; 
+    border-left: 1px solid rgb(41, 109, 227);
+    height: 70px;
+}
+.phonesub2{
+    position: absolute;
+    right: 12%;
+    top: 370%;
+}
+.phonesub2 h1{
+    display: inline;
+    color: rgb(8, 37, 82);
+    font-size: 25px;
+    letter-spacing:-1px;
+    line-height: 34px;
+}
+.phonesub2 p{
+    display: block;
+    letter-spacing: -0.27px;
+    line-height: 26.9px;
+    color: #8181c1;
+    font-size: 15px;
+}
+.phoneno3 h1{
+    position: absolute;
+    right: 38%;
+    top: 392%;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 14.95px;
+    color:rgb(41, 109, 227);
+    font-family: "Rency";
+}
+.phonesub3{
+    position: absolute;
+    right: 10%;
+    top: 390%;
+}
+.phonesub3 h1{
+    display: inline;
+    color: rgb(8, 37, 82);
+    font-size: 25px;
+    letter-spacing:-1px;
+    line-height: 34px;
+}
+.phonesub3 p{
+    display: block;
+    letter-spacing: -0.27px;
+    line-height: 26.9px;
+    color: #8181c1;
+    font-size: 15px;
+}
+.signupnow{
+    position: absolute;
+    right: 28%;
+    top: 410%;
+}
+.signupnow button{
+    border:  1px solid rgb(41, 109, 227);
+    border-radius: 8px;
+    background-color: rgb(41, 109, 227);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 1;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+.container5{
+    max-width: 100%;
+    height: 150vh;
+}
+.infoup{
+    position: absolute;
+    top: 440%;
+    left: 25%;
+}
+.infoup h1{
+    display: block;
+    text-align:center;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    opacity: 1; 
+    letter-spacing: -2.4948px;
+    line-height: 56.7px;
+}
+.infoup p{
+    display: block;
+    text-align:center ;
+    color: rgb(108, 130, 163);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.72px;
+    line-height: 90px;
+}
+.infoup h2{
+    display: block;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 1;
+    font-feature-settings:"tnum";
+    font-family: "CW BR Firma";
+}
+.infoup h2 sup{
+    font-size: 25px;
+    color: rgb(8, 37, 82);
+}
+
+.invt{
+    position: absolute;
+    left: 40%;
+    top: 490%
+}
+.invt p{
+    color: rgb(23, 103, 222);
+    font-family: "CW BR Firma";
+    font-size: 22px;
+    cursor: pointer;
+}
+.invts{
+    position: absolute;
+    left: 50%;
+    top: 490%
+}
+.invts p{
+    color: rgb(23, 103, 222);
+    font-family: "CW BR Firma";
+    font-size: 22px;
+    cursor: pointer;
+}
+hr{
+    position: absolute;
+    top: 505%;
+    right: 20%;
+    width: 60%;
+}
+.infodown{
+    position: absolute;
+    top: 515%;
+    left: 40%;
+}
+.infodown h1{
+    margin-left: 50px;
+    color: rgb(108, 130, 163);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 20px;
+    line-height: 8.5px;
+}
+.infodown h2{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: rgb(108, 130, 163);
+    font-family: "sans-serif";
+    font-size: 100px;
+    font-weight: 600;
+    opacity: 1;
+    letter-spacing: -1.638px;
+    line-height: 120px;
+}
+.infodown h2 sup{
+    font-size: 25px;
+    color:  rgb(108, 130, 163);
+}
+.numbtn{
+    position: absolute;
+    left: 42%;
+    top: 540%; 
+}
+.numbtn button{
+    text-align: center;
+    border:  1px solid #fff;
+    background-color: #abe8f1;
+    color: rgb(41, 109, 227);
+    width:100%;
+    height: 30px;
+    padding: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 600;
+}
+.infodown2{
+    position: absolute;
+    left: 45%;
+    top: 550%;
+}
+.infodown2 p{
+    text-align:center ;
+    color: rgb(108, 130, 163);
+    font-size: 15px;
+}
+.infodown2 p span{
+    color: rgb(19, 71, 161);
+}
+.infodown3{
+    position: absolute;
+    left: 30%;
+    top: 560%;
+}
+.infodown3 p{
+    color: rgb(108, 130, 163);
+    font-size: 15px;
+    line-height: 23.8px;
+}
+.infodown3 p span{
+    text-align: center;
+    margin-left: 35%;
+}
+.container6{
+    max-width: 100%;
+    height: 120vh;   
+    background-color: rgb(0, 102, 245);
+}
+.bluebox{
+    position: absolute;
+    left: 30px;
+    top: 580%; 
+}
+.bluebox h1{
+    margin-top: 25px;
+    font-family: "sans-serif";
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2.4948px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+.bluebox p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: rgb(255, 255, 255);
+}
+.bluebox a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 45px;
+}
+.text-box1{
+    position: absolute;
+    left: 30px;
+    top: 620%; 
+}
+.text-box1 h1{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: -0.945px;
+    line-height: 26.25px;
+}
+.text-box1 p{
+    color: rgba(255, 255, 255, 0.8);
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    margin-top: 10px;
+}
+.text-box2{
+    position: absolute;
+    left: 50%;
+    top: 620%; 
+}
+.text-box2 h1{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: -0.945px;
+    line-height: 26.25px;
+}
+.text-box2 p{
+    color: rgba(255, 255, 255, 0.8);
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    margin-top: 10px;
+}
+.text-box3{
+    position: absolute;
+    left: 30px;
+    top: 650%; 
+}
+.text-box3 h1{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: -0.945px;
+    line-height: 26.25px;
+}
+.text-box3 p{
+    color: rgba(255, 255, 255, 0.8);
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    margin-top: 10px;
+}
+.text-box4{
+    position: absolute;
+    left: 50%;
+    top: 650%; 
+}
+.text-box4 h1{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: -0.945px;
+    line-height: 26.25px;
+}
+.text-box4 p{
+    color: rgba(255, 255, 255, 0.8);
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    margin-top: 10px;
+}
+.container7{
+    max-width: 100%;
+    height: 120vh;   
+    background-color: #fff;
+}
+.whybox{
+    position: absolute;
+    left: 30px;
+    top: 710%;
+}
+.whybox h1{
+    color: rgb(8, 37, 82);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+.whybox p{
+    color: #5858a2;
+    font-size:55px;
+    font-weight: 700;
+    opacity: 1; 
+}
+.whybox p span{
+    color: rgb(8, 37, 82);
+}
+.box-playstore{
+    position: absolute;
+    left: 20px;
+    top: 740%;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 40px; 
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+.box-playstore h1{
+    color:  rgb(8, 37, 82);
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box-playstore h1 sub{
+    font-size:20px;
+    color: #5858a2;
+    margin-bottom: 30px;
+}
+.box-playstore h2{
+    padding-left: 20px; 
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.588px;
+    line-height: 24.5px;
+}
+.box-playstore p{ 
+    padding: 20px; 
+    color:  rgb(112, 141, 185);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23.8px;
+}
+.box-playstore a{
+    color: #4f4ff8;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 30px; 
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    line-height: 45px;
+    text-decoration-color: rgb(0, 102, 245);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+}
+.playstorebox{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    width: 120px;
+    height: 40px;
+    background-color:rgb(2, 43, 105);
+    border: 1px solid rgb(2, 43, 105);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.playstorebox h1{
+    margin-top: 1px;
+    padding: 6px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 200;
+}
+.playstorebox h2{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 3px;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
+.box-appstore{
+    position: absolute;
+    right: 50px;
+    top: 740%;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+.box-appstore h1{
+    color:  rgb(8, 37, 82);
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box-appstore h1 sub{
+    font-size:20px;
+    color: #5858a2;
+    margin-bottom: 30px;
+}
+.box-appstore h2{
+    padding-left: 20px; 
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.588px;
+    line-height: 24.5px;
+}
+.box-appstore p{ 
+    padding: 20px; 
+    color:  rgb(112, 141, 185);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23.8px;
+}
+.box-appstore a{
+    color: #4f4ff8;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 30px; 
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    line-height: 45px;
+    text-decoration-color: rgb(0, 102, 245);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+}
+.appstorebox{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    width: 120px;
+    height: 40px;
+    background-color:rgb(2, 43, 105);
+    border: 1px solid rgb(2, 43, 105);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.appstorebox h1{
+    margin-top: 1px;
+    padding: 6px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 200;
+}
+.appstorebox h2{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    padding: 3px;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
+.container8{
+    max-width: 100%;
+    height: 120vh;   
+    background-color: #fff;
+}
+.bluebox2{
+    position: absolute;
+    top: 810%;
+    background-color: rgb(0, 102, 245);
+    width: 95%;
+    height: 50vh;
+    border-radius: 10px;
+    margin-left: 30px;
+    box-shadow: rgba(0, 103, 245, 0.3) 0px 59px 51px -34px; 
+}
+.bluebox2 p{
+    position: absolute;
+    right: 60%;
+    top: 30%;
+    padding-left: 90px;   
+    font-size: 36.4px;
+    font-weight: 600;
+    letter-spacing: -1.638px;
+    line-height: 50.96px;
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+}
+.textbox{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.textbox label{
+    display: block;
+}
+.textbox input{
+    width: 200%;
+    height: 60px;
+    border:  1px solid rgb(90, 140, 212);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 25px;
+    background-color:  rgba(255, 255, 255, 0.25);
+    appearance: auto;   
+}
+.signupbtn button{
+    position: absolute;
+    top: 42%;
+    left: 75%;
+    border:  1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(8, 37, 82);
+    width: 13%;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer1{
+    position: absolute;
+    top: 875%;
+    left: 5px;
+}
+.footer1 h1{
+    margin-left: 25px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    line-height: 85px;
+}
+.footer1 ul li{
+    list-style: none;
+}
+.footer1 ul li a{   
+    display: inline;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(8, 37, 82, 0.6);
+    cursor: pointer;
+}
+.footer1 a:hover{
+    color:rgb(90, 140, 212);
+}
+.footer2{
+    position: absolute;
+    top: 875%;
+    left: 25%;
+}
+.footer2 h1{
+    margin-left: 25px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    line-height: 85px;
+}
+.footer2 ul li{
+    list-style: none;
+}
+.footer2 ul li a{   
+    display: inline;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(8, 37, 82, 0.6);
+    cursor: pointer;
+}
+.footer2 a:hover{
+    color:rgb(90, 140, 212);
+}
+.footer3{
+    position: absolute;
+    top: 875%;
+    left: 45%;
+}
+.footer3 h1{
+    margin-left: 25px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    line-height: 85px;
+}
+.footer3 ul li{
+    list-style: none;
+}
+.footer3 ul li a{   
+    display: inline;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(8, 37, 82, 0.6);
+    cursor: pointer;
+}
+.footer3 a:hover{
+    color:rgb(90, 140, 212);
+}
+.footer4{
+    position: absolute;
+    top: 875%;
+    right: 15%;
+}
+.footer4 h1{
+    margin-left: 25px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    line-height: 85px;
+}
+.footer4 ul li{
+    list-style: none;
+}
+.footer4 ul li a{   
+    display: inline;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(8, 37, 82, 0.6);
+    cursor: pointer;
+}
+.footer4 a:hover{
+    color:rgb(90, 140, 212);
+}
+.container9{
+    max-width: 100%;
+    height: 100vh;   
+    background-color: #fff;
+}
+.hr{
+    position: relative;
+    top: 25%;
+    display: block;
+    width: 100%;
+}
+.ng-us{
+    position: absolute;
+    top: 970%;
+    left: 20px;
+}
+.ng-us h1{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(8, 37, 82);
+    line-height: 40px;
+}
+.boxcowry{
+    position: absolute;
+    top: 970%;
+    right: 20px;
+    width: 220px;
+    height: 60px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 10px;
+    box-shadow: rgba(8, 37, 82, 0.02) 1px 8px 12px 0px;
+}
+.boxcowry img{
+    font-size:10px;
+    margin-left: 5px;
+}
+.boxcowry h1{
+    text-align:center ;
+    color:rgb(8, 37, 82);
+    font-size: 14.5px;
+    font-weight: 700;
+    margin-left: 50px;
+    letter-spacing: -0.6px;
+    line-height: 16.675px;
+}
+.boxcowry h2{
+    margin-left:1px;
+    padding-bottom: 25px;
+    text-align:center ;
+    color: rgba(8, 37, 82, 0.6);
+    font-size: 10px;
+    line-height: 11.5px;
+}
+.lastinfo{
+    position: absolute;
+    top: 990%;
+    left: 10px
+}
+.lastinfo p{
+    color: #4f4ff8;
+    font-family: "Rency", "-apple-system", "Roboto";
+    font-weight: 400;
+    text-size-adjust: 100%;
+    font-size: 13px;
+    line-height: 28.4px;
+    color: rgba(8, 37, 82, 0.48);
+}
+.lastinfo p a{
+    color: #4f4ff8;
+    font-weight: 400;
+    text-decoration: none;
+}
+/**.footer1 ul li{
+    display: block;
+    margin-left: 10px;
+    padding: 10px 10px ;
+}
+.footer1 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(112, 141, 185);
+    font-family: "CW BR Firma", sans-serif;
+}
+/**h1{
+    color: rgb(108, 130, 163);
+    color:rgb(8, 37, 82) ;
+    display: block;
+    font-family: Rency, sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    height: 105px;
+    letter-spacing: -3.4125px;
+    line-height: 70px;
+    width: 640px;
+    position: absolute;   
+}
+.apptext2 h1 span{
+    font-weight: 200;
+}
+.apptext2 p{
+    left: 2%;
+    top: 30%;
+    position: absolute;
+    color:rgb(8, 37, 82) ;
+    line-height: 45px;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing:-1.4px ;
+    line-height: 35px;
+    padding-bottom: 30px;
+    height: 450px;
+}
+.apptext2 button{
+    left: 2%;
+    top: 50%;
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    border:  1px solid rgb(41, 109, 227);;
+    border-radius: 10px;
+    background-color: rgb(41, 109, 227);
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+
+
+
+.textline h1{
+    margin: 60px;
+    
+    color: rgb(8, 37, 82);
+    font-size: 80px;
+    font-weight: 600;
+    font-family: "CW BR Firma", sans-serif;
+}
+.textline h2{
+    color:rgb(8, 37, 82);
+    font-size: 25px;
+    font-family: "CW BR Firma", sans-serif;
+    font-weight: 0;
+}
